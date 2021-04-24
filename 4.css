@@ -1,0 +1,65 @@
+a.khoinho{
+    text-decoration: none;
+    background-color: burlywood;
+    width: 280px;
+    height: 210px;
+    position: relative;
+    display: block;
+    float: left;
+    margin: 3px;
+}
+a.khoinho .layer1{
+    width: 280px;
+    height: 210px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+a.khoinho .layer2{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 280px;
+    height: 210px;
+    z-index: 2;
+    position: absolute ;
+    top: 0;
+    left: 0;
+}
+a.khoinho .layer3{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 6;
+    color: white;
+    width: 280px;
+}
+a.khoinho:hover .layer2{
+    opacity: 0;
+    transition: 0.3;
+
+}
+a.khoinho:hover .layer3{
+    opacity: 1;
+    transition: 0.3;
+    bottom: 2px;
+    transition: 0.5;
+}
+a.khoilon{
+    width: 560px;
+    height: 420px;
+}
+a.khoilon .layer1{
+    width: 560px;
+    height: 420px;
+}
+a.khoilon .layer2{
+    width: 560px;
+    height: 420px;
+}
+a.khoilon .layer3{
+    font-size: 20px;
+}
+.main{
+    width: 1150px;
+    margin: auto;
+}
